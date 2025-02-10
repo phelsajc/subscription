@@ -11,10 +11,11 @@ Package | Version
 1. composer install
 2. copy .env.example .env
 3. Set up database credentials in  ```.env``` file
-4. php artisan key:generate
-5. php artisan storage:link
+4. Set up Stripe keys
+5. php artisan key:generate
 # Database
 1. Migrate database ```php artisan migrate```
+2. ```php artisan db:seed --class=PlansSeeder```, this will create sample plans
 # Installation
 1. ```npm install``` to install dependencies
 2. ```npm run dev``` for development or ```npm run build``` for production
