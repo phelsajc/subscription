@@ -13,6 +13,7 @@ Package | Version
 3. Set up database credentials in  ```.env``` file
 4. Set up Stripe keys
 5. php artisan key:generate
+6. php artisan jwt:secret
 # Database
 1. Migrate database ```php artisan migrate```
 2. ```php artisan db:seed --class=PlansSeeder```, this will create sample plans
